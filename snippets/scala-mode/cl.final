@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#Author : Stephen Gordon
+#name : final class { .. }
+# key: cl
+# --
+final class ${1:name}(${2:args}) {
+  $0
+}

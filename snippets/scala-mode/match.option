@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : option match { case None => .. }
+# key: match
+# --
+${1:option} match {
+  case None => $2
+  case Some(res) => $0
+}

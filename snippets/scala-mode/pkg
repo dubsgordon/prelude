@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: package foo.bar
+# key: pkg
+# --
+package `(scala-package-name-from-buffer)`
+
+$0
